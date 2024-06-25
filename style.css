@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#cerchio {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-bottom: 3%;
+}
+
+h1 {
+    color: #0000ff;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: rgb(0, 0, 47);
+    margin-bottom: 5%;
+}
+
+
+/* applico il background sia all'id che alla classe */
+#rosa, .rosa {
+    background-color: #f25e77;
+}
+/* applico il background sia all'id che alla classe */
+#verde, .verde {
+    background-color: #008000;
+}
+
+#giallo {
+    background-color: #ffd700;
+}
+
+#giallo:hover {
+    background-color: #f2e7a6;
+}
+
+#rosso {
+    background-color: #ff0000;
+}
+
+#rosso:hover {
+    background-color: #f0b9b9;
+}
+
+#blu {
+    background-color: #0000ff;
+}
+
+#blu:hover {
+    background-color: #a3a3ec;
+}
+
+#rosa:hover {
+    background-color: pink;
+}
+
+#verde:hover {
+    background-color: #b2d6b2;
+}
